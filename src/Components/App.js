@@ -32,7 +32,7 @@ export default function App() {
     function positivePercentage (){
 
         
-       return   Math.floor(good / countTotalFeedback() * 100) + "%";
+       return   Math.floor(good / countTotalFeedback() * 100) ;
          
     };
   
